@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/Kamal/73740_labs_repo/lab06/results/mlruns/451154360923577239/6860bbfbdd804a029995f2a7bbd439f8/artifacts
+end_time: 1794581874060
+entry_point_name: ''
+experiment_id: '451154360923577239'
+lifecycle_stage: active
+run_id: 6860bbfbdd804a029995f2a7bbd439f8
+run_name: Adam_StepLR
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794581455000
+status: 3
+tags: []
+user_id: Kamal

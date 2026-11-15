@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/Kamal/73740_labs_repo/lab06/results/mlruns/451154360923577239/6efbd64e46f348f78286eb1ffffb4141/artifacts
+end_time: 1794585719874
+entry_point_name: ''
+experiment_id: '451154360923577239'
+lifecycle_stage: active
+run_id: 6efbd64e46f348f78286eb1ffffb4141
+run_name: Adam_Plateau
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794583827606
+status: 3
+tags: []
+user_id: Kamal

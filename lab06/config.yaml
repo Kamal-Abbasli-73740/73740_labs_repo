@@ -1,0 +1,42 @@
+# ============================================================
+# Lab 06: Master Training Pipeline Configuration
+# ============================================================
+
+experiment:
+  name: "lab06_cnn_training_systems"
+  seed: 42
+  tracking_uri: "file:./lab06/results/mlruns"
+  artifacts_dir: "lab06/results"
+
+data:
+  dataset_name: "FashionMNIST"
+  data_dir: "./data"
+  num_classes: 10
+  input_channels: 1
+  input_height: 28
+  input_width: 28
+
+model:
+  name: "Lab03_CNN"
+  conv1_channels: 16
+  conv2_channels: 32
+  kernel_size: 3
+  padding: 1
+  dense_units: 1568  # 32 * 7 * 7
+
+training:
+  batch_size: 128
+  num_workers: 2
+  epochs: 5
+  learning_rate: 0.001
+  optimizer: "Adam"       # Options: "Adam", "SGD"
+  momentum: 0.9           # For SGD with momentum
+  scheduler: "StepLR"     # Options: "StepLR", "CosineAnnealingLR", "ReduceLROnPlateau"
+  step_size: 2
+  gamma: 0.5
+  device: "cpu"
+
+checkpoint:
+  save_dir: "lab06/results/checkpoints"
+  checkpoint_interval: 1
+  resume_checkpoint: "lab06/results/checkpoints/checkpoint_epoch_3.pt"

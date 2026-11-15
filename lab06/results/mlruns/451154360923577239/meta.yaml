@@ -1,0 +1,9 @@
+artifact_location: file:C:/Users/Kamal/73740_labs_repo/lab06/results/mlruns/451154360923577239
+creation_time: 1794407147842
+effective_trace_archival_retention: null
+experiment_id: '451154360923577239'
+last_update_time: 1794407147842
+lifecycle_stage: active
+name: lab06_cnn_training_systems
+trace_location: null
+workspace: default

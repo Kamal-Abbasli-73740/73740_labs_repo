@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/Kamal/73740_labs_repo/lab06/results/mlruns/451154360923577239/965c33d7a3834acea8e1eae895ba5e2e/artifacts
+end_time: 1794586076851
+entry_point_name: ''
+experiment_id: '451154360923577239'
+lifecycle_stage: active
+run_id: 965c33d7a3834acea8e1eae895ba5e2e
+run_name: SGD_Momentum_Cosine
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794585719900
+status: 3
+tags: []
+user_id: Kamal
